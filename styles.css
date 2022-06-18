@@ -234,7 +234,15 @@ footer {
 }
 .item {
   text-align: center;
-  width: 30%;
+}
+.phone-number{
+  width: 15%;
+}
+.email{
+  width: 53%;
+}
+.location{
+  width: 20%;
 }
 .item p {
   font-size: 13px;
@@ -358,7 +366,7 @@ footer {
     font-size: 35px;
   }
   .text p {
-    font-size: 15px;
+    font-size: 18px;
   }
   .vision-mission {
     width: 100%;
@@ -384,7 +392,7 @@ footer {
 
 
 /* smaller-screens */
-@media (max-width: 900px) {
+@media (max-width: 780px) {
   .vision-mission {
     flex-direction: column;
   }
